@@ -3,13 +3,18 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
-      <nav>
-        <div>
-          <img src="" alt="" />
-          <h3>Logo</h3>
+      <nav className="nav-container">
+        <div className="nav-logo">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/8041/8041337.png"
+            alt=""
+          />
+          <h3>
+            <span>AUTO</span>MARKET
+          </h3>
         </div>
 
-        <section>
+        <section className="nav-sectionOptions">
           <ul>
             <li>
               <Link to={"/"}>Inicio</Link>

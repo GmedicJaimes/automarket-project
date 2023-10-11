@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600&family=Nunito:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NavBar Section */
+
+.nav-container {
+  max-width: 80%;
+  margin-left: 10%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lexend Deca";
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-logo h3 {
+  font-weight: 600;
+}
+
+.nav-logo span {
+  color: red;
+}
+
+.nav-sectionOptions {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  width: 400px;
+}
+
+.nav-sectionOptions ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-sectionOptions ul li {
+  list-style: none;
+}
+
+.nav-sectionOptions a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+.nav-sectionOptions a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
