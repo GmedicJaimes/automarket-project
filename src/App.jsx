@@ -9,13 +9,12 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <Routes>
-        <Route></Route>
-      </Routes> */}
       <Navbar />
-      <Home />
-      <Contact />
-      <Cars />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/cars" element={<Cars />} />
+      </Routes>
     </>
   );
 }
