@@ -222,3 +222,17 @@
   font-family: "Nunito";
   font-weight: 600;
 }
+
+/* Footer */
+
+.footer {
+  background-color: #001d3d;
+  height: 200px;
+}
+
+.se-footerInfo {
+  max-width: 80%;
+  margin-left: 10%;
+  display: flex;
+  border-bottom: 1px solid white;
+}
