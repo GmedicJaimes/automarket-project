@@ -9,7 +9,7 @@ const Footer = () => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttCtth6humrgzNNUMgWpW-tWFf30Sq3AYG-BuxS1Vq_UPlNeZd78exaRZwHbPM39xG8Y&usqp=CAU"
             alt=""
           />
-          <div>
+          <div className="texto-footer">
             <p>
               ¡Cumple el sueño de tener vehículo propio, con AutoMarket. Somos
               líderes en el mercado de compra y venta de vehículos en Cúcuta,
@@ -17,7 +17,7 @@ const Footer = () => {
               únicas de negocio!
             </p>
           </div>
-          <div>
+          <div className="datos-footer">
             <p>+57 302 5129591</p>
             <p>direccion tal: cucuta</p>
           </div>

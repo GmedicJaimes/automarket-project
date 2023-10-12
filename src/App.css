@@ -148,7 +148,8 @@
 .se-containerNosotros {
   max-width: 80%;
   margin-left: 10%;
-  height: 100vh;
+  height: auto;
+  margin-bottom: 150px;
 }
 
 .se-containerNosotros h1 {
@@ -227,12 +228,55 @@
 
 .footer {
   background-color: #001d3d;
-  height: 200px;
 }
 
 .se-footerInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
   max-width: 80%;
   margin-left: 10%;
-  display: flex;
   border-bottom: 1px solid white;
+}
+
+.se-footerInfo img {
+  margin: 30px;
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.texto-footer p {
+  font-size: 1.4em;
+  font-family: "Nunito";
+  text-align: center;
+  width: 600px;
+  color: white;
+}
+
+.datos-footer p {
+  font-size: 1.4em;
+  font-family: "Nunito";
+  text-align: center;
+  color: white;
+}
+
+.se-footerDerechos {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.se-footerDerechos p {
+  font-family: "Lexend Deca";
+  color: white;
+}
+
+.se-footerDerechos a {
+  text-decoration: none;
+  color: red;
 }
