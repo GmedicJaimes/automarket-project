@@ -20,8 +20,12 @@ const Navbar = () => {
               <Link to={"/"}>Inicio</Link>
             </li>
             <li>
+              <Link to={"/informe"}>Informe</Link>
+            </li>
+            <li>
               <Link to={"/cars"}>Servicios</Link>
             </li>
+
             <li>
               <Link to={"/contact"}>Contacto</Link>
             </li>
