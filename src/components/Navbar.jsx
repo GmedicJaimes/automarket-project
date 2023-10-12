@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="nav-container">
         <div className="nav-logo">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/8041/8041337.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttCtth6humrgzNNUMgWpW-tWFf30Sq3AYG-BuxS1Vq_UPlNeZd78exaRZwHbPM39xG8Y&usqp=CAU"
             alt=""
           />
           <h3>

@@ -18,7 +18,14 @@ const Footer = () => {
             </p>
           </div>
           <div className="datos-footer">
-            <p>+57 302 5129591</p>
+            <p>
+              {" "}
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                alt=""
+              />
+              +57 302 5129591
+            </p>
             <p>direccion tal: cucuta</p>
           </div>
         </section>

@@ -23,9 +23,6 @@ const Home = () => {
         </div>
       </section>
       <section id="info">
-        <Card />
-      </section>
-      <section>
         <Info />
       </section>
     </>
