@@ -1,6 +1,6 @@
 import Home from "./views/Home";
 import Contact from "./views/Contact";
-import Cars from "./views/Cars";
+import Services from "./views/Services";
 import Navbar from "./components/Navbar";
 
 import { Route, Routes } from "react-router";
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/cars" element={<Cars />} />
+        <Route path="/cars" element={<Services />} />
       </Routes>
     </>
   );

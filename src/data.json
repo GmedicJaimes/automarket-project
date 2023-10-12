@@ -1,0 +1,23 @@
+{
+  "nosotros" : [
+    { 
+      "src" : "https://cdn-icons-png.flaticon.com/128/615/615075.png",
+      "title" : "Acompañamiento personalizado", 
+      "description" : "Te acompañamos en cada paso, para adquirir tu vehiculo"
+    },
+    { 
+      "src" : "https://cdn-icons-png.flaticon.com/128/2171/2171680.png",
+      "title" : "Fácil Financiamiento", 
+      "description" : "Contamos con convenios directos con diferentes entidades financieras"
+    },
+    { 
+      "src" : "https://cdn-icons-png.flaticon.com/128/5653/5653205.png",
+      "title" : "Compramos tu vehículo", 
+      "description" : "Generamos la mejor oferta del mercado por tú vehiculo usado"
+    }
+  ],
+  "preguntas" : [
+    
+  ],
+  "vehiculos" : []
+}

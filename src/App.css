@@ -31,6 +31,7 @@
 .nav-logo h3 {
   font-weight: 600;
   font-size: 1.4em;
+  color: #001d3d;
 }
 
 .nav-logo span {
@@ -41,7 +42,6 @@
   display: flex;
   align-items: center;
   margin-right: 40px;
-  width: 400px;
 }
 
 .nav-sectionOptions ul {
@@ -55,7 +55,7 @@
 
 .nav-sectionOptions a {
   text-decoration: none;
-  color: black;
+  color: #001d3d;
   font-size: 1.2em;
 }
 
@@ -68,7 +68,7 @@
 /* Home */
 
 .se-homeTitle {
-  background-image: url("./assets/prueba-peugeot-2008-bluehdi-130-2215289.webp");
+  background-image: url("./assets/zyro-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
@@ -92,7 +92,7 @@
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background-color: rgba(255, 255, 255, 0.562);
+  background-color: rgba(255, 255, 255, 0.637);
   border-radius: 10px;
   height: 250px;
   width: 800px;
@@ -104,6 +104,7 @@
   font-family: "Lexend Deca";
   font-size: 2em;
   margin-bottom: 20px;
+  color: #001d3d;
 }
 
 .se-infoHome span {
@@ -140,4 +141,84 @@
   background-color: rgb(255, 0, 0);
   color: white;
   transition: all 0.3s;
+}
+
+/* Porque Elegirnos */
+
+.se-containerNosotros {
+  max-width: 80%;
+  margin-left: 10%;
+  height: 100vh;
+}
+
+.se-containerNosotros h1 {
+  font-family: "Lexend Deca";
+  font-size: 2em;
+  font-weight: 600;
+  color: #001d3d;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.ar-cardNosotros {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.di-nosotrosInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #a8a8a838;
+  border-radius: 5px;
+  width: 330px;
+  height: 370px;
+  padding: 20px;
+}
+
+.di-nosotrosInfo:hover {
+  border-bottom: 4px solid red;
+  cursor: pointer;
+  transition: all;
+}
+
+.di-nosotrosInfo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001d3d;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.di-nosotrosInfo img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(165deg)
+    brightness(104%) contrast(102%);
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.di-nosotrosInfo h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 12px;
+  color: red;
+  font-size: 1.3em;
+  font-family: "Lexend Deca";
+}
+
+.di-nosotrosInfo p {
+  font-size: 1.1em;
+  font-family: "Nunito";
+  font-weight: 600;
 }

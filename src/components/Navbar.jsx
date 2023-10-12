@@ -23,7 +23,7 @@ const Navbar = () => {
               <Link to={"/cars"}>Servicios</Link>
             </li>
             <li>
-              <Link to={"/contact"}>Contactanos</Link>
+              <Link to={"/contact"}>Contacto</Link>
             </li>
           </ul>
         </section>
