@@ -26,7 +26,7 @@ const Footer = () => {
               />
               +57 302 5129591
             </p>
-            <p>direccion tal: cucuta</p>
+            <p>Av libertadores 15N- 148 local 2 y 3 urbanización Nissa</p>
           </div>
         </section>
         <section className="se-footerDerechos">

@@ -21,8 +21,11 @@ const Contact = () => {
           />
         </article>
 
-        <article>
+        <article className="article-form">
           <Form />
+          <div>
+            <h2>Encuentranos tambien en nuestro punto de venta</h2>
+          </div>
         </article>
       </section>
     </>
