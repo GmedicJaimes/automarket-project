@@ -7,7 +7,7 @@ const Info = () => {
         <h1>¿Porque Elegirnos?</h1>
         <article className="ar-cardNosotros">
           {data.nosotros.map((info) => (
-            <div key={info} className="di-nosotrosInfo">
+            <div key={info.id} className="di-nosotrosInfo">
               <div>
                 <img src={info.src} alt="icon" />
               </div>
