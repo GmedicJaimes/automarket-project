@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* NavBar Section */
+/* ---------------- NAVBAR -------------------- */
 header {
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.363);
 }
@@ -68,7 +68,7 @@ header {
   border-bottom: 2px solid red;
 }
 
-/* Home */
+/*----------------- HOME ----------------- */
 
 .se-homeTitle {
   background-image: url("./assets/zyro-image.png");
@@ -285,7 +285,47 @@ header {
   width: 500px;
   height: 300px;
   border-radius: 20px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.411);
+  /* box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.411); */
+}
+
+/* ----------------------- CONTACT ------------------ */
+
+.se-containerContact {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+.se-art__contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+
+.se-art__contact img {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.art-infoContact {
+  width: 800px;
+  height: 260px;
+}
+
+.art-infoContact h2 {
+  font-size: 2em;
+  font-family: "Lexend Deca";
+  font-weight: 600;
+  color: #001d3d;
+  margin-bottom: 30px;
+}
+
+.art-infoContact p {
+  font-family: "Nunito";
+  font-size: 1.3em;
+  font-weight: 500;
 }
 /* ---------------- FOOTER --------------- */
 
