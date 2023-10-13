@@ -1,3 +1,5 @@
+import Form from "../components/FormContact";
+
 const Contact = () => {
   return (
     <>
@@ -19,7 +21,9 @@ const Contact = () => {
           />
         </article>
 
-        <article></article>
+        <article>
+          <Form />
+        </article>
       </section>
     </>
   );
