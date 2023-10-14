@@ -1,14 +1,11 @@
-import imagen1 from "../assets/imagen1.jpg";
-import imagen2 from "../assets/imagen2.jpg";
-
 const Necesidad = () => {
   return (
     <>
       <section className="se-containerNecesidad">
-        <h2>Somos tu mejor opcion del mercado.</h2>
+        <h1>Somos tu mejor opcion del mercado.</h1>
         <div className="necesidad-carrusel">
           <article className="cardNecesidad">
-            <div>
+            <div className="card-necesidad__info">
               <h2>
                 ¿Estas cansado de salir con tu familia y no tener un comfort al
                 transportarse?{" "}
@@ -18,11 +15,19 @@ const Necesidad = () => {
                 adapte a tu necesidad.
               </span>
             </div>
-            <img src={imagen1} alt="" />
+            <img
+              src="https://www.motor.com.co/__export/1655175867501/sites/motor/img/2022/06/13/2024-chevrolet-blazer-ev-1_crop1655175866789.jpg_242310155.jpg"
+              alt=""
+              className="image1"
+            />
           </article>
           <article className="cardNecesidad">
-            <img src={imagen2} alt="" />
-            <div>
+            <img
+              src="https://www.elcarrocolombiano.com/wp-content/uploads/2020/08/20200813-CHEVROLET-ONIX-RS-TURBO-2021-PRUEBA-DE-MANEJO-VIDEO-01.jpg"
+              alt=""
+              className="image2"
+            />
+            <div className="card-necesidad__info">
               <h2>
                 ¿Las altas temperaturas te estresan y fastidian al momento de
                 movilizarte?
@@ -36,8 +41,8 @@ const Necesidad = () => {
           </article>
           <article className="cardNecesidad">
             <h2>
-              En Automarket estamos comprometidos a escuchar y cubrir lo que el
-              cliente nos pida.
+              En AutoMarket estamos comprometidos a escuchar <br />y cumplir lo
+              que el cliente necesite.
             </h2>
           </article>
         </div>
