@@ -26,10 +26,10 @@
     {
       "id": 1,
       "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "marca": "Toyota Hilux Automática 4x4",
+      "precio": "145.000.000",
+      "año": 2021,
+      "kilometraje": "84.500"
     },
     {
       "id": 2,
