@@ -1,5 +1,6 @@
 import Card from "../components/Card";
 import Info from "../components/Info";
+import Necesidad from "../components/Necesidad";
 
 const Home = () => {
   return (
@@ -23,6 +24,9 @@ const Home = () => {
         </div>
       </section>
       <section id="info">
+        <Necesidad />
+      </section>
+      <section>
         <Info />
       </section>
     </>

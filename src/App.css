@@ -14,7 +14,7 @@ header {
 .nav-container {
   max-width: 80%;
   margin-left: 10%;
-  height: 60px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   font-family: "Lexend Deca";
@@ -97,7 +97,7 @@ header {
   padding: 40px;
   background-color: rgba(255, 255, 255, 0.671);
   border-radius: 10px;
-  height: 250px;
+  height: 300px;
   width: 800px;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.349);
 }
@@ -105,7 +105,7 @@ header {
 .se-infoHome h1 {
   text-align: center;
   font-family: "Lexend Deca";
-  font-size: 2em;
+  font-size: 2.3em;
   margin-bottom: 20px;
   color: #001d3d;
 }
@@ -115,7 +115,7 @@ header {
 }
 
 .se-infoHome p {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-family: "Nunito";
   text-align: center;
   font-weight: 600;
@@ -146,6 +146,40 @@ header {
   transition: all 0.3s;
 }
 
+/* necesidades */
+
+.se-containerNecesidad {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* background-color: #001d3d; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.necesidad-carrusel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .necesidad-carrusel::-webkit-scrollbar {
+  display: none;
+} */
+
+.cardNecesidad {
+  scroll-snap-align: start;
+  border-radius: 20px;
+  min-height: 300px;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
 /* Porque Elegirnos */
 
 .se-containerNosotros {
