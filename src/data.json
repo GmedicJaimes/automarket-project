@@ -22,5 +22,126 @@
   "preguntas" : [
     
   ],
-  "vehiculos" : []
+  "vehiculos" : [
+    {
+      "id": 1,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 2,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 3,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 4,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 5,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 6,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 7,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 8,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 9,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 10,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 11,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 12,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 13,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 14,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    },
+    {
+      "id": 15,
+      "src": "",
+      "marca": "",
+      "precio": "",
+      "año": 0,
+      "kilometraje": ""
+    }
+  ]
 }

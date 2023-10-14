@@ -1,8 +1,18 @@
+import Card from "../components/Card";
+
 const Services = () => {
   return (
-    <div>
-      <h1>Este es el Cars</h1>
-    </div>
+    <>
+      <section>
+        <h1>Autos usados o nuevos</h1>
+        <span>
+          Encuentra el auto usado o nuevo que más se adapte tus necesidades.
+        </span>
+      </section>
+      <section>
+        <Card />
+      </section>
+    </>
   );
 };
 
