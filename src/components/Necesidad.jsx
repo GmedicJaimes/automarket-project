@@ -39,7 +39,6 @@ const Necesidad = () => {
               En Automarket estamos comprometidos a escuchar y cubrir lo que el
               cliente nos pida.
             </h2>
-            <span>Somos tú mejor opción en la ciudad de Cúcuta.</span>
           </article>
         </div>
       </section>
