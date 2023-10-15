@@ -319,13 +319,14 @@ header {
 /* ----------------------- SERVICIOS ---------------- */
 
 .se-container__Autos {
-  background-color: #001d3d;
+  /* background-color: #001d3d; */
   max-width: 70%;
   margin-left: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .se-container__Autos h1 {
@@ -337,25 +338,72 @@ header {
 }
 
 .autosContenedor {
-  /* background-color: aqua; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
+  margin-top: 40px;
 }
 
 .card-autos {
-  background-color: #707070;
-  width: 300px;
+  background-color: #a8a8a838;
+  width: 340px;
+  height: 400px;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.459);
 }
 
 .card-autos img {
-  background-color: aqua;
-  width: 100px;
-  height: 300px;
+  width: 100%;
+  height: 60%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-size: cover;
+}
+
+.card-containerInfo {
+  padding: 10px;
+  height: 40%;
+}
+
+.card-containerInfo h2 {
+  font-size: 1.4em;
+  font-family: "Lexend Deca";
+  font-weight: 500;
+}
+
+.card-containerInfo h3 {
+  font-size: 1.2em;
+  font-family: "Nunito";
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.card-containerInfo span {
+  font-size: 1.4em;
+  font-family: "Lexend Deca";
+  font-weight: 500;
+  color: red;
+}
+
+.info-numeros {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.info-numeros p {
+  font-size: 1em;
+  font-family: "Nunito";
+  font-weight: bold;
+  background-color: #001d3d;
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
 }
 /* ----------------------- CONTACT ------------------ */
 
