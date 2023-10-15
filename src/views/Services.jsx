@@ -1,17 +1,18 @@
 import Card from "../components/Card";
+import Venta from "../components/Venta";
 
 const Services = () => {
   return (
     <>
-      <section>
+      <section className="title-services">
         <h1>Autos usados o nuevos</h1>
         <span>
-          Encuentra el auto usado o nuevo que más se adapte tus necesidades.
+          Encuentra el auto usado o nuevo que más se adapte a tus necesidades.
         </span>
       </section>
-      <section>
-        <Card />
-      </section>
+
+      <Card />
+      <Venta />
     </>
   );
 };
