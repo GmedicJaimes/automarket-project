@@ -25,7 +25,7 @@
   "vehiculos" : [
     {
       "id": 1,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/Bqgcqt7/1.jpg",
       "marca": "Toyota Hilux",
       "tipo" : "Automática 4x4",
       "precio": "145.000.000",
@@ -34,7 +34,7 @@
     },
     {
       "id": 2,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/4SssrF8/2.jpg",
       "marca": "Mini Cooper Turbo S",
       "tipo" : "Automático",
       "precio": "56.000.000",
@@ -43,7 +43,7 @@
     },
     {
       "id": 3,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/GsWTGG6/3.jpg",
       "marca": "Toyota Corolla Cross Hibrida",
       "tipo" : "Automático",
       "precio": "138.000.000",
@@ -52,7 +52,7 @@
     },
     {
       "id": 4,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/vsq3zYw/4.jpg",
       "marca": "Toyota Prado TX.L",
       "tipo" : "Automática 4x4",
       "precio": "350.000.000",
@@ -61,7 +61,7 @@
     },
     {
       "id": 5,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/drd9xrh/5.jpg",
       "marca": "Toyota Fortuner",
       "tipo" : "Automática",
       "precio": "185.000.000",
@@ -70,7 +70,7 @@
     },
     {
       "id": 6,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/zZZ49pp/6.jpg",
       "marca": "Toyota FJ Cruiser",
       "tipo" : "Automática 4x4",
       "precio": "210.000.000",
@@ -79,7 +79,7 @@
     },
     {
       "id": 7,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/RB28v73/7.jpg",
       "marca": "Toyota Sahara Land Cruiser",
       "tipo" : "Automática 4x4",
       "precio": "160.000.000",
@@ -88,7 +88,7 @@
     },
     {
       "id": 8,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/gZLsXkN/8.jpg",
       "marca": "Chevrolet Spark",
       "tipo" : "Mecanico",
       "precio": "17.000.000",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "src": "./assets/",
+      "src": "https://i.ibb.co/X4HcwSH/9.jpg",
       "marca": "Chevrolet Aveo Gt Emotion",
       "tipo" : "Mecanico",
       "precio": "42.000.000",

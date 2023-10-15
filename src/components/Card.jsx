@@ -8,7 +8,7 @@ const Card = () => {
         <div className="autosContenedor">
           {data.vehiculos.map((info) => (
             <article key={info.id} className="card-autos">
-              <img src={info.src} alt="" />
+              <img src={info.src} alt="carros" />
               <div className="card-containerInfo">
                 <h2>{info.marca}</h2>
                 <h3>{info.tipo}</h3>

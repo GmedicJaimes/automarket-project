@@ -319,7 +319,7 @@ header {
 /* ----------------------- SERVICIOS ---------------- */
 
 .se-container__Autos {
-  /* background-color: #001d3d; */
+  background-color: #001d3d;
   max-width: 70%;
   margin-left: 15%;
   display: flex;
@@ -339,11 +339,24 @@ header {
 .autosContenedor {
   /* background-color: aqua; */
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 30px;
 }
 
+.card-autos {
+  background-color: #707070;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-autos img {
+  background-color: aqua;
+  width: 100px;
+  height: 300px;
+}
 /* ----------------------- CONTACT ------------------ */
 
 .se-containerContact {
