@@ -316,62 +316,32 @@ header {
   font-weight: 600;
 }
 
-/*--------------- INFORME ------------- */
+/* ----------------------- SERVICIOS ---------------- */
 
-.se-informeContainer {
+.se-container__Autos {
+  /* background-color: #001d3d; */
+  max-width: 70%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
-  margin-left: 10%;
 }
 
-.se-informeContainer h1 {
+.se-container__Autos h1 {
+  width: 100%;
   color: #001d3d;
   font-size: 2.3em;
-  font-weight: 600;
   font-family: "Lexend Deca";
-  margin-top: 30px;
+  text-align: left;
 }
 
-.art-containerInfo {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.autosContenedor {
+  /* background-color: aqua; */
   width: 100%;
-  height: 400px;
-  margin-bottom: 20px;
-}
-
-.info-informe {
-  width: 500px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.info-informe h2 {
-  font-size: 2em;
-  font-family: "Lexend Deca";
-  text-align: center;
-  margin-bottom: 20px;
-  color: #001d3d;
-}
-
-.info-informe p {
-  font-size: 1.2em;
-  font-family: "Nunito";
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-
-.art-containerInfo img {
-  width: 500px;
-  height: 300px;
-  border-radius: 20px;
-  /* box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.411); */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 /* ----------------------- CONTACT ------------------ */
@@ -541,6 +511,63 @@ header {
   cursor: pointer;
 }
 
+/*--------------- INFORME ------------- */
+
+.se-informeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.se-informeContainer h1 {
+  color: #001d3d;
+  font-size: 2.3em;
+  font-weight: 600;
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+}
+
+.art-containerInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.info-informe {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-informe h2 {
+  font-size: 2em;
+  font-family: "Lexend Deca";
+  text-align: center;
+  margin-bottom: 20px;
+  color: #001d3d;
+}
+
+.info-informe p {
+  font-size: 1.2em;
+  font-family: "Nunito";
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.art-containerInfo img {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  /* box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.411); */
+}
 /* ---------------- FOOTER --------------- */
 
 .footer {
