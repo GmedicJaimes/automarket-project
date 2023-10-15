@@ -25,123 +25,84 @@
   "vehiculos" : [
     {
       "id": 1,
-      "src": "",
-      "marca": "Toyota Hilux Automática 4x4",
+      "src": "./assets/",
+      "marca": "Toyota Hilux",
+      "tipo" : "Automática 4x4",
       "precio": "145.000.000",
       "año": 2021,
-      "kilometraje": "84.500"
+      "kilometraje": "4.500 Km"
     },
     {
       "id": 2,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Mini Cooper Turbo S",
+      "tipo" : "Automático",
+      "precio": "56.000.000",
+      "año": 2009,
+      "kilometraje": "45.000 Km"
     },
     {
       "id": 3,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Toyota Corolla Cross Hibrida",
+      "tipo" : "Automático",
+      "precio": "138.000.000",
+      "año": 2023,
+      "kilometraje": "78.800 Km"
     },
     {
       "id": 4,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Toyota Prado TX.L",
+      "tipo" : "Automática 4x4",
+      "precio": "350.000.000",
+      "año": 2024,
+      "kilometraje": "500 Km"
     },
     {
       "id": 5,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Toyota Fortuner",
+      "tipo" : "Automática",
+      "precio": "185.000.000",
+      "año": 2019,
+      "kilometraje": "88.600 Km"
     },
     {
       "id": 6,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Toyota FJ Cruiser",
+      "tipo" : "Automática 4x4",
+      "precio": "210.000.000",
+      "año": 2016,
+      "kilometraje": "56.000 Km"
     },
     {
       "id": 7,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Toyota Sahara Land Cruiser",
+      "tipo" : "Automática 4x4",
+      "precio": "160.000.000",
+      "año": 2008,
+      "kilometraje": "100.000 Km"
     },
     {
       "id": 8,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Chevrolet Spark",
+      "tipo" : "Mecanico",
+      "precio": "17.000.000",
+      "año": 2007,
+      "kilometraje": "250.000 Km"
     },
     {
       "id": 9,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
-    },
-    {
-      "id": 10,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
-    },
-    {
-      "id": 11,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
-    },
-    {
-      "id": 12,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
-    },
-    {
-      "id": 13,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
-    },
-    {
-      "id": 14,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
-    },
-    {
-      "id": 15,
-      "src": "",
-      "marca": "",
-      "precio": "",
-      "año": 0,
-      "kilometraje": ""
+      "src": "./assets/",
+      "marca": "Chevrolet Aveo Gt Emotion",
+      "tipo" : "Mecanico",
+      "precio": "42.000.000",
+      "año": 2011,
+      "kilometraje": "80.000 Km"
     }
   ]
 }
