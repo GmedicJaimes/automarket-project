@@ -10,6 +10,14 @@ const Venta = () => {
                 Conoce las ofertas disponibles para que puedas vender tu
                 seminuevo el mismo día
               </p>
+              <button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=573142924255&text=Hola, estoy interesado en comprar un auto."
+                  target="_blank"
+                >
+                  Conecta con un asesor
+                </a>
+              </button>
             </div>
           </article>
           <article className="ar-rigthInfo">

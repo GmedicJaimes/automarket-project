@@ -2,7 +2,7 @@ const Necesidad = () => {
   return (
     <>
       <section className="se-containerNecesidad">
-        <h1>Somos tu mejor opcion del mercado.</h1>
+        <h1 id="saber">Somos tu mejor opción del mercado.</h1>
         <div className="necesidad-carrusel">
           <article className="cardNecesidad">
             <div className="card-necesidad__info">

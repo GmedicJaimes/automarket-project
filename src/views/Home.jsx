@@ -17,12 +17,12 @@ const Home = () => {
             </p>
           </div>
 
-          <a href="#info">
+          <a href="#saber">
             <button>Saber mas</button>
           </a>
         </div>
       </section>
-      <section id="info">
+      <section>
         <Necesidad />
       </section>
       <section>

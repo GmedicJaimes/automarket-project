@@ -9,6 +9,10 @@
 /* ---------------- NAVBAR -------------------- */
 header {
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.363);
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
 }
 
 .nav-container {
@@ -68,6 +72,70 @@ header {
   border-bottom: 2px solid red;
 }
 
+/* ---------------- BUTTONS --------------- */
+
+.buttons-whatsapp {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 170px;
+  height: 60px;
+  position: fixed;
+  top: 110px;
+  padding: 5px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 2px 4px 0px #001d3d;
+}
+
+.buttons-whatsapp a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #001d3d;
+  font-family: "Lexend Deca";
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.buttons-whatsapp img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.buttons-instagram {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 170px;
+  height: 60px;
+  position: fixed;
+  top: 180px;
+  padding: 5px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 2px 4px 0px #001d3d;
+}
+
+.buttons-instagram a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #001d3d;
+  font-family: "Lexend Deca";
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.buttons-instagram img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
 /*----------------- HOME ----------------- */
 
 .se-homeTitle {
@@ -76,7 +144,10 @@ header {
   background-size: cover;
   background-position: center left;
   width: 100%;
-  min-height: 700px;
+  /* height: 100vh; */
+  min-height: 740px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .se-containerTitle__Info {
@@ -151,7 +222,6 @@ header {
 .se-containerNecesidad {
   max-width: 70%;
   margin-left: 15%;
-  margin-top: 80px;
   margin-bottom: 80px;
   /* background-color: #001d3d; */
   display: flex;
@@ -166,6 +236,7 @@ header {
   font-size: 2em;
   font-weight: 500;
   color: red;
+  padding-top: 100px;
 }
 
 .necesidad-carrusel {
@@ -322,7 +393,7 @@ header {
   max-width: 70%;
   margin-left: 15%;
   height: 200px;
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -383,7 +454,7 @@ header {
 
 .card-autos:hover {
   cursor: pointer;
-  box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.575);
+  box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.644);
 }
 
 .card-autos img {
@@ -461,11 +532,9 @@ header {
 
 .ar-leftInfo div {
   width: 100%;
-  height: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
 }
 
 .ar-leftInfo h1 {
@@ -479,6 +548,28 @@ header {
   font-size: 1em;
   font-family: "Nunito";
   font-weight: 600;
+}
+
+.ar-leftInfo button {
+  background-color: #001d3d;
+  margin-top: 30px;
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.ar-leftInfo button:hover {
+  background-color: #042a53;
+  cursor: pointer;
+}
+
+.ar-leftInfo a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lexend Deca";
+  cursor: inherit;
+  height: 100%;
 }
 
 .ar-rigthInfo {
@@ -516,9 +607,9 @@ header {
 /* ----------------------- CONTACT ------------------ */
 
 .se-containerContact {
-  max-width: 80%;
-  margin-left: 10%;
-  /* margin-top: 40px; */
+  max-width: 70%;
+  margin-left: 15%;
+  margin-top: 40px;
 }
 
 .se-art__contact {
@@ -691,6 +782,7 @@ header {
   align-items: center;
   max-width: 80%;
   margin-left: 10%;
+  margin-top: 90px;
 }
 
 .se-informeContainer h1 {

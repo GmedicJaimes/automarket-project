@@ -7,11 +7,13 @@ import Services from "./views/Services";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Informe from "./views/Informe";
+import Buttons from "./components/Buttons";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Buttons />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
