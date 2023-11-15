@@ -20,14 +20,13 @@ const Navbar = () => {
               <Link to={"/"}>Inicio</Link>
             </li>
             <li>
-              <Link to={"/cars"}>Servicios</Link>
+              <Link to={"/cars"}>Catalogo</Link>
             </li>
-
+            <li>
+              <Link to={"/informe"}>Servicios</Link>
+            </li>
             <li>
               <Link to={"/contact"}>Contacto</Link>
-            </li>
-            <li>
-              <Link to={"/informe"}>Informe</Link>
             </li>
           </ul>
         </section>

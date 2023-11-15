@@ -1,20 +1,11 @@
-import Card from "../components/Card";
-import Venta from "../components/Venta";
-
-const Services = () => {
+const Informe = () => {
   return (
     <>
-      <section className="title-services">
-        <h1>Autos usados o nuevos</h1>
-        <span>
-          Encuentra el auto usado o nuevo que más se adapte a tus necesidades.
-        </span>
+      <section className="se-informeContainer">
+        <h1>Aqui van a ir los servicios</h1>
       </section>
-
-      <Card />
-      <Venta />
     </>
   );
 };
 
-export default Services;
+export default Informe;
