@@ -1,5 +1,4 @@
 import Card from "../components/Card";
-import Venta from "../components/Venta";
 
 const Catalogo = () => {
   return (
@@ -12,7 +11,6 @@ const Catalogo = () => {
       </section>
 
       <Card />
-      <Venta />
     </>
   );
 };
