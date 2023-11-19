@@ -5,6 +5,7 @@ const Informe = () => {
     <>
       <section className="se-informeContainer"></section>
       <Venta />
+      <Venta />
     </>
   );
 };
