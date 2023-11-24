@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
+import img from "../assets/Screenshot_4.jpg";
 
 const Navbar = () => {
   return (
     <header>
       <nav className="nav-container">
         <div className="nav-logo">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/1965/1965845.png"
-            alt=""
-          />
+          <img src={img} alt="" />
           <h3>
             <span>Auto</span>Motors
           </h3>
@@ -31,9 +29,9 @@ const Navbar = () => {
           </ul>
         </section>
 
-        {/* <section>
+        <section className="nav-sectionLogin">
           <button>Login</button>
-        </section> */}
+        </section>
       </nav>
     </header>
   );
