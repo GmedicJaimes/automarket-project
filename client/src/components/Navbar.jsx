@@ -6,11 +6,11 @@ const Navbar = () => {
       <nav className="nav-container">
         <div className="nav-logo">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttCtth6humrgzNNUMgWpW-tWFf30Sq3AYG-BuxS1Vq_UPlNeZd78exaRZwHbPM39xG8Y&usqp=CAU"
+            src="https://cdn-icons-png.flaticon.com/128/1965/1965845.png"
             alt=""
           />
           <h3>
-            <span>VOITURE</span>MOTORS
+            <span>Auto</span>Motors
           </h3>
         </div>
 
@@ -30,6 +30,10 @@ const Navbar = () => {
             </li>
           </ul>
         </section>
+
+        {/* <section>
+          <button>Login</button>
+        </section> */}
       </nav>
     </header>
   );
