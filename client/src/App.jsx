@@ -7,13 +7,12 @@ import Catalogo from "./views/Catalogo";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Services from "./views/Services";
-import Buttons from "./components/Buttons";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Buttons />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />

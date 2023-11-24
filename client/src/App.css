@@ -8,7 +8,7 @@
 
 /* ---------------- NAVBAR -------------------- */
 header {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.363);
+  /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.363); */
   position: fixed;
   width: 100%;
   background-color: white;
@@ -18,7 +18,7 @@ header {
 .nav-container {
   max-width: 80%;
   margin-left: 10%;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   font-family: "Lexend Deca";
@@ -63,7 +63,8 @@ header {
 .nav-sectionOptions a {
   text-decoration: none;
   color: #001d3d;
-  font-size: 1.2em;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .nav-sectionOptions a:hover {

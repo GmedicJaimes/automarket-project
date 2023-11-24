@@ -10,7 +10,7 @@ const Navbar = () => {
             alt=""
           />
           <h3>
-            <span>AUTO</span>MARKET
+            <span>VOITURE</span>MOTORS
           </h3>
         </div>
 
