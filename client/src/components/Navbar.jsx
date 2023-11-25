@@ -15,16 +15,16 @@ const Navbar = () => {
         <section className="nav-sectionOptions">
           <ul>
             <li>
-              <Link to={"/"}>Inicio</Link>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <Link to={"/cars"}>Catalogo</Link>
+              <Link to={"/cars"}>Cars</Link>
             </li>
             <li>
-              <Link to={"/informe"}>Servicios</Link>
+              <Link to={"/informe"}>Services</Link>
             </li>
             <li>
-              <Link to={"/contact"}>Contacto</Link>
+              <Link to={"/contact"}>Contact Us</Link>
             </li>
           </ul>
         </section>

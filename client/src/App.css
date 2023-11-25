@@ -11,7 +11,7 @@
 /* principal color #f77f00 */
 /* ---------------- NAVBAR -------------------- */
 header {
-  /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.363); */
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.363);
   position: fixed;
   width: 100%;
   background-color: white;
@@ -99,81 +99,22 @@ header {
   border-radius: 5px;
 }
 
-/* ---------------- BUTTONS --------------- */
-
-.buttons-whatsapp {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 170px;
-  height: 60px;
-  position: fixed;
-  top: 110px;
-  padding: 5px;
-  border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 0px 2px 4px 0px #001d3d;
-}
-
-.buttons-whatsapp a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: #001d3d;
-  font-family: "Lexend Deca";
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-.buttons-whatsapp img {
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
-}
-
-.buttons-instagram {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 170px;
-  height: 60px;
-  position: fixed;
-  top: 180px;
-  padding: 5px;
-  border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 0px 2px 4px 0px #001d3d;
-}
-
-.buttons-instagram a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: #001d3d;
-  font-family: "Lexend Deca";
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-.buttons-instagram img {
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
+.nav-sectionLogin button:hover {
+  background-color: #d47004;
+  cursor: pointer;
+  transition: background-color 0.6s;
 }
 
 /*----------------- HOME ----------------- */
 
 .se-homeTitle {
-  background-image: url("./assets/zyro-image.png");
+  background-image: url("./assets/dima-panyukov-7FmfKNniptM-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center left;
+  background-position: center;
   width: 100%;
-  /* height: 100vh; */
-  min-height: 740px;
-  margin-top: 50px;
+  /* height: 740px; */
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
