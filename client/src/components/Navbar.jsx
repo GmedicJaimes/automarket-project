@@ -8,7 +8,9 @@ const Navbar = () => {
         <div className="nav-logo">
           <img src={img} alt="" />
           <h3>
-            <span>Auto</span>Motors
+            <a href="/">
+              <span>Auto</span>Motors
+            </a>
           </h3>
         </div>
 
