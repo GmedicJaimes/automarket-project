@@ -1,4 +1,4 @@
-import Venta from "../../components/Venta";
+import Venta from "../../components/BannerVenta/Venta";
 
 const Informe = () => {
   return (
