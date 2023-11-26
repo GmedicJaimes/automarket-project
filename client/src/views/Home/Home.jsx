@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
-import Info from "../components/Info";
-import Necesidad from "../components/Necesidad";
+import Info from "../../components/Info";
+import Necesidad from "../../components/Necesidad";
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 const Home = () => {
   return (
