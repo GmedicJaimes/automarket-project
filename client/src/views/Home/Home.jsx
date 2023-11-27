@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Info from "../../components/Info";
+import Info from "../../components/WhyChoose/Info";
 import Necesidad from "../../components/Necesidades/Necesidad";
 import { Link } from "react-router-dom";
 import "./Home.css";

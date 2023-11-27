@@ -1,10 +1,11 @@
-import data from "../data.json";
+import data from "../../data.json";
+import "./Info.css";
 
 const Info = () => {
   return (
     <>
       <section className="se-containerNosotros">
-        <h1>¿Porque Elegirnos?</h1>
+        <h1>Why Choose Us?</h1>
         <article className="ar-cardNosotros">
           {data.nosotros.map((info) => (
             <div key={info.id} className="di-nosotrosInfo">
