@@ -20,12 +20,14 @@ const Footer = () => {
             <p>
               {" "}
               <img
-                src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                src="https://cdn-icons-png.flaticon.com/128/1384/1384095.png"
                 alt=""
               />
               +44 20 5129 4591
             </p>
-            <p>Av libertadores 15N- 148 local 2 y 3 urbanización Nissa</p>
+            <p>
+              100 The Quays, Salford <br /> United Kingdom
+            </p>
           </div>
         </section>
         <section className="se-footerDerechos">

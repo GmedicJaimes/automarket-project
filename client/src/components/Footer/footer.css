@@ -1,7 +1,8 @@
 /* ---------------- FOOTER --------------- */
 
 .footer {
-  background-color: #757575;
+  /* background-color: #757575; */
+  background-color: black;
 }
 
 .se-footerInfo {
@@ -11,7 +12,7 @@
   gap: 30px;
   max-width: 80%;
   margin-left: 10%;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid #f77f00;
 }
 
 .se-footerInfo img {
@@ -25,24 +26,33 @@
   font-family: "Nunito";
   text-align: center;
   width: 600px;
-  color: white;
+  color: #c0c0c0;
+}
+
+.datos-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  /* background-color: #f77f00; */
 }
 
 .datos-footer p {
   display: flex;
   gap: 10px;
-  font-size: 1.3em;
+  text-align: end;
+  font-size: 1.2em;
   font-family: "Nunito";
-  text-align: center;
-  color: white;
+  color: #c0c0c0;
   margin-bottom: 10px;
 }
 
 .datos-footer img {
-  width: 33px;
-  height: 33px;
+  width: 30px;
+  height: 30px;
   margin: 0;
-  border-radius: 0;
+  filter: invert(55%) sepia(15%) saturate(6127%) hue-rotate(3deg)
+    brightness(97%) contrast(107%);
 }
 
 .se-footerDerechos {
@@ -57,10 +67,11 @@
 .se-footerDerechos p {
   font-family: "Lexend Deca";
   font-weight: 300;
-  color: white;
+  color: #c0c0c0;
 }
 
 .se-footerDerechos a {
   text-decoration: none;
-  color: red;
+  color: #f77f00;
+  font-weight: bold;
 }
