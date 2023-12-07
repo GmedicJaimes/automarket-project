@@ -21,10 +21,10 @@ const Navbar = () => {
               <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <Link to={"/cars"}>Cars</Link>
+              <Link to={"/car-shop"}>Cars</Link>
             </li>
             <li>
-              <Link to={"/informe"}>Services</Link>
+              <Link to={"/services"}>Services</Link>
             </li>
             <li>
               <Link to={"/contact"}>Contact Us</Link>

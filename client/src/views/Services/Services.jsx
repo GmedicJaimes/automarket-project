@@ -1,14 +1,12 @@
 import Venta from "../../components/BannerVenta/Venta";
 
-const Informe = () => {
+const Services = () => {
   return (
     <>
       <section className="se-informeContainer"></section>
-      <Venta />
-      <Venta />
       <Venta />
     </>
   );
 };
 
-export default Informe;
+export default Services;

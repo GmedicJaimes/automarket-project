@@ -16,7 +16,7 @@ const Home = () => {
               </h1>
               <p>#We make your dreams come true.</p>
               <button>
-                <Link to={"/cars"}>Visit our shop </Link>
+                <Link to={"/car-shop"}>Visit our shop </Link>
               </button>
             </div>
           </div>
