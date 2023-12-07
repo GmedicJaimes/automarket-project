@@ -1,0 +1,66 @@
+/* ---------------- FOOTER --------------- */
+
+.footer {
+  background-color: #757575;
+}
+
+.se-footerInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  max-width: 80%;
+  margin-left: 10%;
+  border-bottom: 1px solid white;
+}
+
+.se-footerInfo img {
+  margin: 30px;
+  width: 180px;
+  height: 180px;
+}
+
+.texto-footer p {
+  font-size: 1.1em;
+  font-family: "Nunito";
+  text-align: center;
+  width: 600px;
+  color: white;
+}
+
+.datos-footer p {
+  display: flex;
+  gap: 10px;
+  font-size: 1.3em;
+  font-family: "Nunito";
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.datos-footer img {
+  width: 33px;
+  height: 33px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.se-footerDerechos {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.se-footerDerechos p {
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  color: white;
+}
+
+.se-footerDerechos a {
+  text-decoration: none;
+  color: red;
+}
