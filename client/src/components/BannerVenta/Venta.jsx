@@ -1,3 +1,5 @@
+import "./Venta.css";
+
 const Venta = () => {
   return (
     <>
@@ -5,43 +7,44 @@ const Venta = () => {
         <section className="venta-infoPrincipal">
           <article className="ar-leftInfo">
             <div>
-              <h1>Compramos tu carro en menos de 24hrs</h1>
+              <h1>We buy your car in less than 24 hours</h1>
               <p>
-                Conoce las ofertas disponibles para que puedas vender tu
-                seminuevo el mismo día
+                Find out about the offers available so you can sell your
+                pre-owned the same day.
               </p>
               <button>
                 <a
-                  href="https://api.whatsapp.com/send?phone=573142924255&text=Hola, estoy interesado en comprar un auto."
+                  href="https://api.whatsapp.com/send?phone=442051294591&text=Hello, I am interested in buying a car."
                   target="_blank"
                 >
-                  Conecta con un asesor
+                  Connect with an advisor
                 </a>
               </button>
             </div>
           </article>
           <article className="ar-rigthInfo">
             <div className="venta-card__ofertas">
-              <h3>Oferta</h3>
-              <h2>Inmediata</h2>
+              <h3>Offer</h3>
+              <h2>Immediate</h2>
               <p>
-                Entregas tu carro y recibes el pago directamente en tu cuenta.
+                You deliver your car and receive payment directly into your
+                account.
               </p>
             </div>
             <div className="venta-card__ofertas">
-              <h3>Oferta</h3>
-              <h2>Intercambio</h2>
+              <h3>Offer</h3>
+              <h2>Exchange</h2>
               <p>
-                Entregas tu carro y te llevas un AutoMarket abonando solo la
-                diferencia.
+                You deliver your car and get an AutoMarket paying only the
+                difference.
               </p>
             </div>
             <div className="venta-card__ofertas">
-              <h3>Oferta</h3>
-              <h2>Consigna</h2>
+              <h3>Offer</h3>
+              <h2>Consignment</h2>
               <p>
-                Dejas tu carro en AutoMarket y recibes el pago en tu cuenta un
-                día después de su venta.
+                You leave your car at AutoMarket and receive the payment in your
+                account a day after its sale.
               </p>
             </div>
           </article>
