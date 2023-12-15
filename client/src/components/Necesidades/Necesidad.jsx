@@ -1,5 +1,5 @@
 import "./Necesidad.css";
-import img from "../../assets/sten-rademaker-NbZwpMWdwzY-unsplash.jpg";
+import img from "../../../public/assets/porsche1.jpg";
 
 const Necesidad = () => {
   return (
