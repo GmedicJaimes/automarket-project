@@ -1,6 +1,6 @@
 import "./Venta.css";
 
-const Venta = () => {
+const BannerVenta = () => {
   return (
     <>
       <div className="containerVenta">
@@ -54,4 +54,4 @@ const Venta = () => {
   );
 };
 
-export default Venta;
+export default BannerVenta;

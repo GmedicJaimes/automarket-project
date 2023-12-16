@@ -1,10 +1,9 @@
-import Venta from "../../components/BannerVenta/Venta";
+import BannerVenta from "../../components/BannerVenta/Venta";
 
 const Services = () => {
   return (
     <>
-      <section className="se-informeContainer"></section>
-      {/* <Venta /> */}
+      <BannerVenta />
     </>
   );
 };
