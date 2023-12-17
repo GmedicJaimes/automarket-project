@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import img from "../../../public/assets/Screenshot_4.jpg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -7,7 +6,7 @@ const Navbar = () => {
     <header>
       <nav className="nav-container">
         <div className="nav-logo">
-          <img src={img} alt="" />
+          <img src="/assets/Screenshot_4.jpg" alt="" />
           <h3>
             <a href="/">
               <span>Auto</span>Motors

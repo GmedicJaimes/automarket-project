@@ -1,5 +1,4 @@
 import "./Necesidad.css";
-import img from "../../../public/assets/porsche1.jpg";
 
 const Necesidad = () => {
   return (
@@ -33,7 +32,7 @@ const Necesidad = () => {
             </div>
             <div className="necesidad-cardImg">
               <div className="img-necesidad">
-                <img src={img} alt="image-one" />
+                <img src="/assets/porsche1.jpg" alt="image-one" />
               </div>
             </div>
           </article>

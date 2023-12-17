@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom";
 import "./footer.css";
-import img from "../../../public/assets/Screenshot_4.jpg";
 
 const Footer = () => {
   return (
     <>
       <footer className="footer">
         <section className="se-footerInfo">
-          <img src={img} alt="" />
+          <img src="/assets/Screenshot_4.jpg" alt="" />
           <div className="texto-footer">
             <p>
               Fulfill the dream of having your own vehicle, with AutoMotors. We
