@@ -75,3 +75,8 @@
   color: #f77f00;
   font-weight: bold;
 }
+
+.se-footerDerechos a:hover {
+  border-bottom: #f77f00 1px solid;
+  line-height: 0;
+}

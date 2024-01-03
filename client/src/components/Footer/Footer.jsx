@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </section>
         <section className="se-footerDerechos">
-          <p>Copyright © 2023 AutoMotors</p>
+          <p>© AutoMotors 2023 - 2024 All rights reserved</p>
           <p>
             Developed by{" "}
             <a href="https://gullianojaimes.vercel.app/" target="_blank">
