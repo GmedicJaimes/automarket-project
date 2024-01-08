@@ -1,6 +1,9 @@
 import "./Necesidad.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Necesidad = () => {
+  AOS.init({});
   return (
     <>
       <section className="se-containerNecesidad">
