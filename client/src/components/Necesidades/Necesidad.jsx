@@ -14,7 +14,11 @@ const Necesidad = () => {
         <p>Discover the car that matches your identity and personality</p>
         <div className="necesidad-carrusel">
           <article className="necesidad-info">
-            <div className="necesidad-card">
+            <div
+              className="necesidad-card"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <h1>Luxury Cars</h1>
               <p>
                 On our exclusive luxury car page, you'll find an unparalleled
@@ -33,7 +37,11 @@ const Necesidad = () => {
                 our website
               </p>
             </div>
-            <div className="necesidad-cardImg">
+            <div
+              className="necesidad-cardImg"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div className="img-necesidad">
                 <img src="/assets/porsche1.jpg" alt="image-one" />
               </div>
