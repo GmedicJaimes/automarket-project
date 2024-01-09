@@ -1,4 +1,5 @@
 import Form from "../../components/FormContact/FormContact";
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -6,19 +7,15 @@ const Contact = () => {
       <section className="se-containerContact">
         <article className="se-art__contact">
           <div className="art-infoContact">
-            <h2>Conecta con Nosotros para Encontrar tu Auto de ensueño.</h2>
+            <h2>Connect with us to find your dream car.</h2>
             <p>
-              En AutoMarket, estamos dedicados a ayudarte a encontrar el
-              automóvil perfecto que se adapte a tus necesidades y deseos.
-              Nuestro equipo de expertos en automóviles está listo para
-              brindarte una experiencia excepcional desde el primer momento en
-              que nos contactes.
+              At AutoMarket, we are dedicated to helping you find the perfect
+              car that suits your needs and desires. Our team of automotive
+              experts is ready to provide you with an exceptional experience
+              from the first moment in that you contact us.
             </p>
           </div>
-          <img
-            src="https://www.autoscolombia.co/wp-content/uploads/2021/12/CONTACTANOS.jpg"
-            alt=""
-          />
+          <img src="assets/img-contactanos.webp" alt="" />
         </article>
 
         <article className="article-form">
