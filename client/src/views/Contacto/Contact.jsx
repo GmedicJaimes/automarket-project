@@ -1,11 +1,19 @@
 import Form from "../../components/FormContact/FormContact";
 import "./Contact.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  AOS.init({});
+
   return (
     <>
       <section className="se-containerContact">
-        <article className="se-art__contact">
+        <article
+          className="se-art__contact"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <div className="art-infoContact">
             <h2>Connect with us to find your dream car.</h2>
             <p>
