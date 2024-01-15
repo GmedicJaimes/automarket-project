@@ -5,18 +5,23 @@ const Form = () => {
   const refForm = useRef();
 
   const handleSubmit = (event) => {
+    // previene que la pagina se recargue al enviar el formulario
     event.preventDefault();
 
+    // identificadores necesarios para el servicio , plantilla de EmailJS y clave API para el envio del formulario
     const serviceId = "service_2qrjqvw";
     const templateId = "template_mcs0kil";
     const apikey = "sBFwvp9y4MJkxDaIv";
 
     emailjs
+      // se usa el metodo sendForm de EmailJS para enviar el formulario
       .sendForm(serviceId, templateId, refForm.current, apikey)
+      // Si el envio es exitoso, se registra el texto del resultado en la consola y se restable el formulario
       .then((result) => {
         console.log(result.text);
         refForm.current.reset();
       })
+      // Si sucede un error en el envio, se registra el error en la consola
       .catch((error) => console.error(error));
   };
 
