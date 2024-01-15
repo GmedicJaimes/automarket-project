@@ -15,7 +15,9 @@ const Contact = () => {
           data-aos-duration="1500"
         >
           <div className="art-infoContact">
-            <h2>Connect with us to find your dream car.</h2>
+            <h2>
+              Connect with us to find <span>your dream car.</span>
+            </h2>
             <p>
               At AutoMarket, we are dedicated to helping you find the perfect
               car that suits your needs and desires. Our team of automotive
@@ -23,7 +25,7 @@ const Contact = () => {
               from the first moment in that you contact us.
             </p>
           </div>
-          <img src="assets/img-contactanos.webp" alt="" />
+          <img src="assets/vendedor-de-autos.jpg" alt="" />
         </article>
 
         <article className="article-form">
