@@ -1,4 +1,6 @@
 import "./UbicationContact.css";
+import "leaflet/dist/leaflet.css";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 const UbicationContact = () => {
   return (
@@ -12,11 +14,29 @@ const UbicationContact = () => {
           </h3>
         </div>
         <article className="ubication">
-          <iframe
+          <MapContainer
+            center={{ lat: "53.47402915903243", lng: "-2.2928118920797957" }}
+            zoom={18}
+          >
+            <TileLayer
+              url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            />
+
+            <Marker
+              position={{
+                lat: "53.47402915903243",
+                lng: "-2.2928118920797957",
+              }}
+            >
+              <Popup>AutoMotors Offices</Popup>
+            </Marker>
+          </MapContainer>
+          {/* <iframe
             className="mapa"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9497.922516528224!2d-2.2956568271597932!3d53.477741617432365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae6b108882d7%3A0xd7764310090d30cd!2sN%20V%20Bldg%2C%20100%20The%20Quays%2C%20Salford%20M50%203BE%2C%20Reino%20Unido!5e0!3m2!1ses-419!2sco!4v1705371083345!5m2!1ses-419!2sco"
             loading="lazy"
-          ></iframe>
+          ></iframe> */}
         </article>
       </article>
     </>
