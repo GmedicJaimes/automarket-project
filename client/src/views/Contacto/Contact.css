@@ -50,10 +50,15 @@
 }
 
 .principal-ubication {
-  background-color: #f77f00;
-  background-image: url("../../../public/assets/jannis-lucas-S2S2SdI6GMM-unsplash.jpg");
+  /* background-color: #807d7b;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(247, 127, 0, 1) 100%
+  );
 }
 
 /* ---- Form ------ */
