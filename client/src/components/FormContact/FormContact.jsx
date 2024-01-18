@@ -1,3 +1,4 @@
+import "./FormContact.css";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
@@ -34,16 +35,16 @@ const Form = () => {
         className="form-container"
       >
         <div className="form-title">
-          <h2>Contáctenos</h2>
+          <h2>Contact Us</h2>
         </div>
         <div className="form-secciones">
           <label htmlFor="">
-            <span>*</span> Nombre
+            <span>*</span> Name
           </label>
           <input type="text" placeholder="Rodrigo Perez" required name="name" />
 
           <label htmlFor="">
-            <span>*</span> Correo Electrónico
+            <span>*</span> Email
           </label>
           <input
             type="email"
@@ -53,7 +54,7 @@ const Form = () => {
           />
 
           <label htmlFor="">
-            <span>*</span> Teléfono de contacto
+            <span>*</span> Cellphone
           </label>
           <input
             type="text"
@@ -62,7 +63,7 @@ const Form = () => {
             name="number"
           />
 
-          <label htmlFor="">Comentarios</label>
+          <label htmlFor="">Comments</label>
           <textarea
             type="text"
             placeholder="Deja tu comentario aqui"

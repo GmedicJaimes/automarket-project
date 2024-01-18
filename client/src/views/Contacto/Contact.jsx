@@ -15,6 +15,7 @@ const Contact = () => {
           data-aos="fade-right"
           data-aos-duration="1500"
         >
+          <img src="assets/vendedor-de-autos.jpg" alt="" />
           <div className="art-infoContact">
             <h2>
               Connect with us to find <span>your dream car.</span>
@@ -26,13 +27,14 @@ const Contact = () => {
               from the first moment in that you contact us.
             </p>
           </div>
-          <img src="assets/vendedor-de-autos.jpg" alt="" />
         </article>
       </section>
       <article className="principal-ubication">
         <Ubication />
       </article>
-      <Form />
+      <article className="Form">
+        <Form />
+      </article>
     </>
   );
 };
