@@ -32,7 +32,7 @@ const Contact = () => {
       <article className="principal-ubication">
         <Ubication />
       </article>
-      <article className="Form">
+      <article className="Form" data-aos="fade-down" data-aos-duration="1500">
         <Form />
       </article>
     </>

@@ -8,10 +8,10 @@
 }
 
 .form-title h2 {
-  font-size: 2em;
+  font-size: 2.4em;
   font-family: "Lexend Deca";
   font-weight: 600;
-  color: #001d3d;
+  color: black;
 }
 
 .form-secciones {
@@ -22,31 +22,32 @@
 
 .form-secciones label {
   font-size: 1.2em;
-  font-family: "Nunito";
-  font-weight: 600;
+  font-family: "Lexend Deca";
+  font-weight: 500;
   margin-bottom: 7px;
+  color: black;
 }
 
 .form-secciones span {
-  color: red;
+  color: #f77f00;
 }
 
 .form-secciones input {
-  border-radius: 5px;
-  height: 30px;
+  height: 35px;
   padding-left: 5px;
   margin-bottom: 5px;
-  border: #001d3d 2px solid;
+  border: black 2px solid;
   font-family: "Nunito";
 }
 
 .form-secciones input::placeholder {
-  color: #707070;
+  color: #888888;
+  font-size: 1.3em;
 }
 
 .form-secciones textarea {
-  border: #001d3d 2px solid;
-  border-radius: 5px;
+  border: black 2px solid;
+
   height: 80px;
   padding: 5px;
   font-size: 1em;
@@ -54,24 +55,25 @@
 }
 
 .form-secciones textarea::placeholder {
-  color: #707070;
+  color: #888888;
+  font-size: 1.2em;
 }
 
 .form-container button {
-  margin-top: 20px;
   width: 100px;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
-  background-color: #001d3d;
-  color: white;
-  font-weight: 600;
+  height: 40px;
+  margin-top: 30px;
+  font-size: 1em;
   font-family: "Lexend Deca";
+  font-weight: 400;
+  background-color: #f77f00;
+  color: white;
+  border: none;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.438);
 }
 
 .form-container button:hover {
-  color: #001d3d;
-  background-color: white;
-  border: 2px solid #001d3d;
+  background-color: #d47004;
   cursor: pointer;
+  transition: background-color 0.6s;
 }

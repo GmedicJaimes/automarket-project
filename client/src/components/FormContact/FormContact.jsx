@@ -41,7 +41,12 @@ const Form = () => {
           <label htmlFor="">
             <span>*</span> Name
           </label>
-          <input type="text" placeholder="Rodrigo Perez" required name="name" />
+          <input
+            type="text"
+            placeholder="George Williams"
+            required
+            name="name"
+          />
 
           <label htmlFor="">
             <span>*</span> Email
@@ -58,7 +63,7 @@ const Form = () => {
           </label>
           <input
             type="text"
-            placeholder="+57 320-0000444"
+            placeholder="+44 20 5129 4591"
             required
             name="number"
           />
@@ -66,7 +71,7 @@ const Form = () => {
           <label htmlFor="">Comments</label>
           <textarea
             type="text"
-            placeholder="Deja tu comentario aqui"
+            placeholder="Leave your comment here"
             name="message"
           />
         </div>
