@@ -9,11 +9,12 @@ const Contact = () => {
 
   return (
     <>
-      <section className="se-containerContact">
+      <section id="contact" className="se-containerContact">
         <article
           className="se-art__contact"
           data-aos="fade-right"
           data-aos-duration="1500"
+          id="contact"
         >
           <img src="assets/vendedor-de-autos.jpg" alt="" />
           <div className="art-infoContact">

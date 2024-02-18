@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -17,16 +17,16 @@ const Navbar = () => {
         <section className="nav-sectionOptions">
           <ul>
             <li>
-              <Link to={"/"}>Home</Link>
+              <RouterLink to="/">Home</RouterLink>
             </li>
             <li>
-              <Link to={"/car-shop"}>Cars</Link>
+              <RouterLink to="car-shop">Cars</RouterLink>
             </li>
             <li>
-              <Link to={"/services"}>Services</Link>
+              <RouterLink to={"/services"}>Services</RouterLink>
             </li>
             <li>
-              <Link to={"/contact"}>Contact Us</Link>
+              <RouterLink to={"/contact"}>Contact Us</RouterLink>
             </li>
           </ul>
         </section>
