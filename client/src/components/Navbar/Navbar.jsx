@@ -20,10 +20,10 @@ const Navbar = () => {
               <RouterLink to="/">Home</RouterLink>
             </li>
             <li>
-              <RouterLink to="car-shop">Cars</RouterLink>
+              <RouterLink to={"/services"}>Services</RouterLink>
             </li>
             <li>
-              <RouterLink to={"/services"}>Services</RouterLink>
+              <RouterLink to="car-shop">Cars</RouterLink>
             </li>
             <li>
               <RouterLink to={"/contact"}>Contact Us</RouterLink>

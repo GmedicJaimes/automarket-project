@@ -17,7 +17,7 @@ const BannerVenta = () => {
                   href="https://api.whatsapp.com/send?phone=442051294591&text=Hello, I am interested in buying a car."
                   target="_blank"
                 >
-                  Connect with an advisor
+                  Contact Us
                 </a>
               </button>
             </div>

@@ -1,11 +1,7 @@
 import BannerVenta from "../../components/BannerVenta/Venta";
 
 const Services = () => {
-  return (
-    <>
-      <BannerVenta />
-    </>
-  );
+  return <></>;
 };
 
 export default Services;
