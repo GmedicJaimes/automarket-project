@@ -1,5 +1,6 @@
-import Card from "../../components/Cards/Card";
+import Cards from "../../components/Cards/Cards";
 import BannerVenta from "../../components/BannerVenta/Venta";
+import data from "../../data.json";
 
 const Catalogo = () => {
   return (
@@ -11,7 +12,7 @@ const Catalogo = () => {
             Encuentra el auto usado o nuevo que más se adapte a tus necesidades.
           </span>
         </article>
-        <Card />
+        <Cards datos={data} />
       </section>
       <BannerVenta />
     </>
