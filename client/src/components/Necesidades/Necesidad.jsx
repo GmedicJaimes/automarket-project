@@ -47,12 +47,6 @@ const Necesidad = () => {
               </div>
             </div>
           </article>
-          <article className="cardNecesidad">
-            <h2>
-              In AutoMotors, we are committed <br />
-              to listening and meeting what the customer needs.
-            </h2>
-          </article>
         </div>
       </section>
     </>

@@ -16,7 +16,7 @@ const Card = ({ props }) => {
                   <p>{info.año}</p>
                   <p>{info.kilometraje}</p>
                 </div>
-                <span> $ {info.precio} </span>
+                <span> £ {info.precio} </span>
               </div>
             </article>
           ))}
