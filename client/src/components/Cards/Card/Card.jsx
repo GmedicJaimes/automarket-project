@@ -1,10 +1,13 @@
 import "./Card.css";
 
-const Card = ({ props }) => {
+const Card = ({ props, total }) => {
   return (
     <>
       <section className="se-container__Autos">
         <h1>Vehicles of the month</h1>
+        <div>
+          <p>Total vehicles Available: {total.length}</p>
+        </div>
         <div className="autosContenedor">
           {props.vehiculos.map((info) => (
             <article key={info.id} className="card-autos">

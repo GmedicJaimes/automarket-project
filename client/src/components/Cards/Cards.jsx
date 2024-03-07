@@ -15,8 +15,8 @@ const Cards = ({ datos }) => {
 
   return (
     <>
-      <h1>Total cars Available: {total.length}</h1>
-      <Card props={datos} />
+      {/* <h1>Total cars Available: {total.length}</h1> */}
+      <Card props={datos} total={total} />
     </>
   );
 };
