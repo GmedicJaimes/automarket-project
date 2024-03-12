@@ -4,10 +4,8 @@ const Card = ({ props, total }) => {
   return (
     <>
       <section className="se-container__Autos">
-        <h1>Vehicles of the month</h1>
-        <div>
-          <p>Total vehicles Available: {total.length}</p>
-        </div>
+        <h1>Vehicles for Sale</h1>
+        <p>Total vehicles Available: {total.length}</p>
         <div className="autosContenedor">
           {props.vehiculos.map((info) => (
             <article key={info.id} className="card-autos">
@@ -19,7 +17,7 @@ const Card = ({ props, total }) => {
                   <p>{info.año}</p>
                   <p>{info.kilometraje}</p>
                 </div>
-                <span> £ {info.precio} </span>
+                <h3> £ {info.precio} </h3>
               </div>
             </article>
           ))}

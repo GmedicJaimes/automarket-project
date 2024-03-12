@@ -6,12 +6,6 @@ const Catalogo = () => {
   return (
     <>
       <section>
-        <article className="title-services">
-          <h1>Autos usados o nuevos</h1>
-          <span>
-            Encuentra el auto usado o nuevo que más se adapte a tus necesidades.
-          </span>
-        </article>
         <Cards datos={data} />
       </section>
       <BannerVenta />
