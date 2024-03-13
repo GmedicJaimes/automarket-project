@@ -8,8 +8,8 @@ const Info = () => {
         <h1>Why Choose Us?</h1>
         <article className="cardNecesidad">
           <h2>
-            In AutoMotors, we are committed <br />
-            to listening and meeting what the customer needs.
+            In AutoMotors, we are committed to listening and meeting what the
+            customer needs.
           </h2>
         </article>
         <article className="ar-cardNosotros">
