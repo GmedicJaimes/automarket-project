@@ -4,7 +4,7 @@
   max-width: 80%;
   width: 100%;
   margin-left: 10%;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,14 +13,14 @@
 
 .se-containerNecesidad h1 {
   font-family: "Lexend Deca";
-  font-size: 1.8em;
+  font-size: 1.45em;
   font-weight: 500;
   color: #ff8400;
   padding-top: 40px;
 }
 
 .se-containerNecesidad p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: "Nunito";
   font-weight: 500;
   color: #868686;
@@ -58,12 +58,14 @@
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 20px;
+  border-bottom: 4px solid black;
 }
 
 .necesidad-card p {
   margin-bottom: 10px;
-  color: black;
-  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.897);
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 .necesidad-cardImg {
@@ -72,7 +74,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: black 4px solid;
+  /* border: black 4px solid; */
+  /* border-radius: 10px; */
 }
 
 .img-necesidad img {
@@ -82,4 +85,6 @@
   width: 90%;
   height: 100%;
   margin-left: 5%;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.534);
 }

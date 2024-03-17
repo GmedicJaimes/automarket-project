@@ -16,7 +16,7 @@ const UbicationContact = () => {
         <article className="ubication">
           <MapContainer
             center={{ lat: "53.47402915903243", lng: "-2.2928118920797957" }}
-            zoom={18}
+            zoom={16}
           >
             <TileLayer
               url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"

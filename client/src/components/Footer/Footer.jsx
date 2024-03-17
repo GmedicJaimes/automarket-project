@@ -15,14 +15,14 @@ const Footer = () => {
             </p>
           </div>
           <div className="datos-footer">
-            <p>
+            <span>
               {" "}
               <img
                 src="https://cdn-icons-png.flaticon.com/128/1384/1384095.png"
                 alt=""
               />
               +44 20 5129 4591
-            </p>
+            </span>
             <p>
               100 The Quays, Salford <br /> United Kingdom
             </p>

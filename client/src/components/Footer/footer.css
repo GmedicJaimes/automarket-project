@@ -22,9 +22,9 @@
 }
 
 .texto-footer p {
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: "Nunito";
-  text-align: center;
+  text-align: left;
   width: 600px;
   color: #c0c0c0;
 }
@@ -38,10 +38,22 @@
 }
 
 .datos-footer p {
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  font-family: "Nunito";
+  color: #c0c0c0;
+  margin-bottom: 10px;
+}
+
+.datos-footer span {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
-  text-align: end;
-  font-size: 1.2em;
+  text-align: left;
+  font-size: 1em;
   font-family: "Nunito";
   color: #c0c0c0;
   margin-bottom: 10px;
@@ -67,6 +79,7 @@
 .se-footerDerechos p {
   font-family: "Lexend Deca";
   font-weight: 300;
+  font-size: 14px;
   color: #c0c0c0;
 }
 
@@ -74,9 +87,4 @@
   text-decoration: none;
   color: #f77f00;
   font-weight: bold;
-}
-
-.se-footerDerechos a:hover {
-  border-bottom: #f77f00 1px solid;
-  line-height: 0;
 }

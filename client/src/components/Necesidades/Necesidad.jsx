@@ -17,7 +17,7 @@ const Necesidad = () => {
             <div
               className="necesidad-card"
               data-aos="fade-right"
-              data-aos-duration="2000"
+              data-aos-duration="1500"
             >
               <h1>Luxury Cars</h1>
               <p>
@@ -27,7 +27,7 @@ const Necesidad = () => {
               <p>
                 From sleek sports cars to luxurious sedans, each model offers
                 exceptional design, cutting-edge technology, and extraordinary
-                performance
+                performance.
               </p>
               <p>
                 Our commitment to excellence is reflected in the personalized
