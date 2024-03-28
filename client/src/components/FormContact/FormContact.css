@@ -1,14 +1,47 @@
 /* ---- Form ------ */
+.form-container-principal {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.form-container-principal article {
+  width: 50%;
+  height: 100%;
+}
+
+.form-article-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-article-first h1 {
+  font-size: 2.3em;
+  font-family: "Lexend Deca";
+  font-weight: 600;
+  color: black;
+}
+
+.form-article-first p {
+  font-size: 1.2em;
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  color: #707070;
+}
 
 .form-container {
   display: flex;
   flex-direction: column;
-  /* background-color: blue; */
-  width: 50%;
+  background-color: #dddddd;
+  padding: 30px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.438);
+  border-radius: 10px;
+  height: 100%;
 }
 
 .form-title h2 {
-  font-size: 2.4em;
+  font-size: 1.8em;
   font-family: "Lexend Deca";
   font-weight: 600;
   color: black;
@@ -20,48 +53,42 @@
   margin-top: 20px;
 }
 
-.form-secciones label {
-  font-size: 1.1em;
-  font-family: "Lexend Deca";
-  /* font-weight: 500; */
-  margin-bottom: 7px;
-  color: black;
-}
-
-.form-secciones span {
-  color: #f77f00;
-}
-
 .form-secciones input {
-  height: 40px;
-  padding-left: 5px;
-  margin-bottom: 5px;
-  border: black 2px solid;
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border: #8888888c 1px solid;
+  border-radius: 3px;
   font-family: "Lexend Deca";
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 1em;
+  outline: none;
 }
 
 .form-secciones input::placeholder {
   color: #888888;
-  font-size: 1.2em;
+  font-size: 1em;
+  /* padding-left: 10px; */
 }
 
 .form-secciones textarea {
-  border: black 2px solid;
-
+  border: #8888888c 1px solid;
+  border-radius: 3px;
   height: 80px;
-  padding: 5px;
+  padding: 15px 20px;
   font-size: 1em;
-  font-family: "Nunito";
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  outline: none;
 }
 
 .form-secciones textarea::placeholder {
   color: #888888;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .form-container button {
-  width: 100px;
+  width: 100%;
   height: 40px;
   margin-top: 30px;
   font-size: 1em;

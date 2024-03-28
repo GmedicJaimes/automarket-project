@@ -27,57 +27,51 @@ const Form = () => {
   };
 
   return (
-    <>
-      <form
-        action=""
-        onSubmit={handleSubmit}
-        ref={refForm}
-        className="form-container"
-      >
-        <div className="form-title">
-          <h2>Contact Us</h2>
-        </div>
-        <div className="form-secciones">
-          <label htmlFor="">
-            <span>*</span> Name
-          </label>
-          <input
-            type="text"
-            placeholder="George Williams"
-            required
-            name="name"
-          />
+    <div className="form-container-principal">
+      <article className="form-article-first">
+        <h1>Select the car of your dreams</h1>
+        <p>
+          Don't wait any longer to buy the car of your dreams! Act now and make
+          that dream come true! Let me help you reach that goal!
+        </p>
+      </article>
+      <article className="form-article-second">
+        <form
+          action=""
+          onSubmit={handleSubmit}
+          ref={refForm}
+          className="form-container"
+        >
+          <div className="form-title">
+            <h2>Contact Us</h2>
+          </div>
+          <div className="form-secciones">
+            <input type="text" placeholder="Name" required name="name" />
 
-          <label htmlFor="">
-            <span>*</span> Email
-          </label>
-          <input
-            type="email"
-            placeholder="example@gmail.com"
-            required
-            name="email"
-          />
+            <input
+              type="email"
+              placeholder="Email Address"
+              required
+              name="email"
+            />
 
-          <label htmlFor="">
-            <span>*</span> Cellphone
-          </label>
-          <input
-            type="text"
-            placeholder="+44 20 5129 4591"
-            required
-            name="number"
-          />
+            <input
+              type="text"
+              placeholder="Cell Number"
+              required
+              name="number"
+            />
 
-          <label htmlFor="">Comments</label>
-          <textarea
-            type="text"
-            placeholder="Leave your comment here"
-            name="message"
-          />
-        </div>
-        <button>Enviar </button>
-      </form>
-    </>
+            <textarea
+              type="text"
+              placeholder="Leave your comment here"
+              name="message"
+            />
+          </div>
+          <button>Submit</button>
+        </form>
+      </article>
+    </div>
   );
 };
 
